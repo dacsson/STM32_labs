@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\blink -I..\..\..\workspace\blink\semihosting -I..\..\..\workspace -I..\..\..\workspace\blink\cmsis_boot -I..\..\..\workspace\blink\cmsis_lib\include -I..\..\..\workspace\blink\cmsis_lib -I..\..\..\workspace\blink\cmsis">
+      <target file="syscalls.o" lastModified="18def25c2bd">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="18def2104fe"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="18def3126f9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="18def20d870"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="18def312c2d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="18def2e09ec"/>
+      </target>
+      <target file="printf.o" lastModified="18def25bfae">
+         <source file="..\..\..\stdio\printf.c" lastModified="18def2149f7"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="18def312845">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="18def2083ba"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="18def25bcd0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="18def2083ba"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="18def312a78">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="18def2f77c0"/>
+      </target>
+      <target file="main.o" lastModified="18defa032ef">
+         <source file="..\..\..\main.c" lastModified="18def9fd0c3"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="18def25c0a8">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="18def2149c8"/>
+      </target>
+      <target file="semihosting.o" lastModified="18def25bc53">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="18def2149c8"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="18def31261e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="18def20a88f"/>
+      </target>
+      <target file="misc.o" lastModified="18def312920">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="18def2e1de0"/>
+      </target>
+   </processor>
+</history>
